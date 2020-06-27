@@ -1,0 +1,101 @@
+﻿body
+{
+    font-size:1.2rem;
+    background:border-box;
+    background-color:darkviolet;
+}
+#title_design{
+    margin:0px;
+    color:aliceblue;
+    font-family:cursive;
+    border:inset;
+    background:linear-gradient(20deg,violet,indigo,blue,green,yellow,orange,red);
+    margin-bottom:2rem;
+    border-radius:20px;
+    text-align:center;
+    font-size:2rem;
+}
+#upside_menu>span{
+    padding:3rem 3ch;
+   margin:7px 7px 100px 7px;
+   font-size:2rem;
+    line-height:5em;
+   height:2rem;
+    border:2px outset black;
+    border-radius:20px;
+    text-decoration:none;
+    background-color:lightblue;
+    color:black;
+}
+#upside_menu > span:hover {
+    background-color: lightgreen;
+}
+#upside_menu>span:active{
+    background-color:green;
+}
+    #upside_menu > span a {
+        text-decoration: none;
+        color:black;
+        font-size:2rem;
+        padding-bottom:1rem;
+    }
+.menu {
+    background: linear-gradient(violet,lightblue,lightgreen);
+    /* background-color:cadetblue;*/
+    border: 3px double red;
+    border-radius: 25px;
+    margin-top:5rem;
+    padding-top:2rem;
+    margin-bottom:3rem;
+    
+}
+.menu_title {
+    color: #490000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.menu_table {
+    font-size: 2rem;
+    color: #490000;
+    font-weight: bolder;
+    text-align: center;
+    overflow: scroll;
+    margin-bottom:3rem;
+}
+tr th{
+    font-weight:bolder;
+    font-size:larger;
+    padding:2em;
+}
+table,th,td{
+    border:2px outset silver;
+    border-collapse:collapse;
+    table-layout:fixed;
+    align-items:center;
+}
+table{
+    margin-left:3em;
+    margin-bottom:1em;
+}
+th, td:hover {
+    background-color: lightgreen;
+}
+td {
+    cursor: url("images/cursor2.png")2 2,pointer;
+}
+}
+caption {
+    text-decoration: underline;
+}
+td img{
+    height:150px;
+    width:257px;
+}
+footer{
+    border-top:3px ridge grey;
+   background-color:darkslategray;
+   margin-bottom:1em;
+   margin-left:0px;
+   border-radius:20px;
+}
